@@ -1,0 +1,5 @@
+Student name: Thomas Meylender
+Student number: 721556
+Student class: IT1a
+GitHub Repository: https://github.com/MeyTh063/web-markup-721556
+GitHub Pages URL: https://github.com/MeyTh063
