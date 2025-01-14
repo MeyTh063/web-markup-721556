@@ -1,12 +1,50 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <link rel="stylesheet" href="css/style.css">
-    </head>
-    <body>
-        <header>Contact Page</header>
-        <h1>Contact </h1>
-        <p>This is my first website that I will be committing onto my github</p>
+<head>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="icon" type="image/png" href="img/logo16.png" />
+    <link rel="icon" type="image/png" href="img/logo32.png" />
+    <title>Contact Us</title>
+</head>
 
-    </body>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="registration.html">Registration</a></li>
+                <li><a href="travel.html">Travel</a></li>
+                <li><a href="insurance.html">Insurance</a></li>
+                <li><a href="permit.html">Permit</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="contactSection">
+        <article>
+            <h1>Contact Us</h1>
+            <form action="contact.php" method="POST">
+                <fieldset id="contactForm">
+                    <legend>Let us know where you need help:</legend>
+                    <label for="firstN"><strong>First name:</strong></label>
+                    <input type="text" id="fname" name="fname" placeholder="John" required>
+                    <label for="lastN"><strong>Last name:</strong></label>
+                    <input type="text" id="lname" name="lname" placeholder="Doe" required>
+                    <label for="email"><strong>Email:</strong></label>
+                    <input type="email" id="email" name="email" placeholder="johndoe@test.com" required />
+                    <label for="message"><strong>Message:</strong></label>
+                    <textarea id="message" name="message" rows="4" cols="50" placeholder="Insert your message" required></textarea>
+                    <input type="submit" value="Submit">
+                </fieldset>
+            </form>
+        </article>
+        <aside>
+            <header>Our Location</header>
+            <iframe id="contactUsMap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1989.278631388808!2d4.6116910801522355!3d52.38885599068935!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c5ef032e1641bd%3A0xe9e0255b574dbad6!2sInholland%20University%20of%20Applied%20Sciences!5e0!3m2!1sen!2snl!4v1736859793797!5m2!1sen!2snl"></iframe>
+        </aside>
+    </section>
+    <footer>
+        <p>&#169 Meylender Thomas. All rights reserved</p>
+    </footer>
+</body>
+
 </html> 

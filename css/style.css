@@ -1,3 +1,209 @@
-body {
-    background-color: beige;
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');
+
+/*Main body styles*/
+html, body {
+    height: 100%;
+    margin: auto;
+    padding: 0;
 }
+
+body {
+    background-color: antiquewhite;
+    color: black;
+}
+
+section {
+    background-color: antiquewhite;
+    color: black;
+    overflow: hidden;
+}
+
+/*Home*/
+.leftSide{
+    margin: 10px;
+    text-align:left;
+    
+}
+
+p {
+    font-family: "IBM Plex Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1 {
+    font-family: "IBM Plex Sans", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.rightSide{
+    margin: 10px;
+    text-align:right;
+}
+
+/*figure style*/
+#bannerMain {
+    width: 100%;
+}
+
+figure{
+    margin:0;
+}
+
+h1 {
+   font-size: 30px
+}
+
+/*Navigation List style*/
+nav{
+    font-size: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #720533;
+}
+
+li {
+    float: left;
+    border-right: 1px solid gray;
+}
+
+    li a {
+        display: block;
+        color: antiquewhite;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+    li a:hover {
+        background-color: #AC2C62;
+    }
+/*Footer style*/
+
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    background-color: #720533;
+    color: antiquewhite;
+    text-align: center;
+    padding: 5px 0;
+    border: 1px solid black;
+}
+
+/*Contact Us */
+
+#contactUsMap {
+    width: 600px;
+    height:450px;
+    border:  0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+fieldset {
+    border: 1px solid #800020; 
+    padding: 15px;
+}
+
+
+legend {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #4b0082; 
+}
+
+
+label {
+    font-size: 0.9rem;
+    color: #333;
+}
+
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    font-size: 0.9rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: navajowhite;
+    color: darkgray;
+}
+
+
+input[type="submit"] {
+    background-color: #4b0082;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    font-size: 0.9rem;
+}
+
+ 
+input[type="submit"]:hover {
+   background-color: #800020; 
+}
+
+#contactSection {
+    display: flex; 
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+
+#contactSection article {
+    width: 65%; 
+    background-color: #faebd7; 
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+
+aside {
+    width: 30%; 
+    background-color: #f5f5f5;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+
+#contactUsMap {
+    width: 100%;
+    height: 300px;
+    border: none;
+}
+
+/*picture*/
+
+#office{
+    width: 450px;
+
+}
+
+figcaption{
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+    
